@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+	<title>Responsive Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+		
+	<div class="header-container">
+		<header>Danyel Oliveira</header>
+
+		<nav>
+			<ul>
+				<li class="border"><a href="index.html">About</a></li>
+				<li class="border"><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+	
+	<div class="main-container">
+		<section id="contact-form">
+			<h2>Contact</h2>
+			<form id="contact" action="login.php" method="post">    
+				<label for="name">Name</label><br>
+				<input id="name" type="text" autocomplete="username" placeholder="exemple" required><br>
+				<label for="email">Email</label><br>
+				<input id="email" type="email" name="email" autocomplete="email"
+					   placeholder="example@gmail.com" required><br>
+				<label for="textfield">Message</label><br>
+				<textarea id="textfield" rows="7"></textarea><br>
+				<button class="button" type="submit" name="submit">Submit</button>
+			</form>
+    	</section>
+
+    	
+	</div>
+
+	<footer></footer>
+</body>
+</html>
